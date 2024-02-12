@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealTimeChatApp.Contracts\RealTimeChatApp.Contracts.csproj" />
+    <ProjectReference Include="..\RealTimeChatApp.Infrastructure\RealTimeChatApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\RealTimeChatApp.Application\RealTimeChatApp.Application.csproj" />
+  </ItemGroup>
+
+</Project>

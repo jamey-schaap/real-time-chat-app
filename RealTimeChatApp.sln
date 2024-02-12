@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F26869F4-1A4E-40CA-8205-05511D5D3426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChatApp.Api", "src\RealTimeChatApp.Api\RealTimeChatApp.Api.csproj", "{FB7DEBCC-5781-4966-89F8-64767BD5382E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChatApp.Application", "src\RealTimeChatApp.Application\RealTimeChatApp.Application.csproj", "{F5B7B2DD-62F3-4C0A-BB02-E0695A232EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChatApp.Contracts", "src\RealTimeChatApp.Contracts\RealTimeChatApp.Contracts.csproj", "{D73AB426-B5DC-4427-96FE-70DB6AFEE824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChatApp.Domain", "src\RealTimeChatApp.Domain\RealTimeChatApp.Domain.csproj", "{F20A3CB9-4F96-417B-B6E0-1C12C1D1BC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChatApp.Infrastructure", "src\RealTimeChatApp.Infrastructure\RealTimeChatApp.Infrastructure.csproj", "{4CF667AD-3E7B-45FF-93F5-770BCA2F91FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB7DEBCC-5781-4966-89F8-64767BD5382E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7DEBCC-5781-4966-89F8-64767BD5382E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7DEBCC-5781-4966-89F8-64767BD5382E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7DEBCC-5781-4966-89F8-64767BD5382E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B7B2DD-62F3-4C0A-BB02-E0695A232EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B7B2DD-62F3-4C0A-BB02-E0695A232EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B7B2DD-62F3-4C0A-BB02-E0695A232EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B7B2DD-62F3-4C0A-BB02-E0695A232EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73AB426-B5DC-4427-96FE-70DB6AFEE824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73AB426-B5DC-4427-96FE-70DB6AFEE824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73AB426-B5DC-4427-96FE-70DB6AFEE824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73AB426-B5DC-4427-96FE-70DB6AFEE824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20A3CB9-4F96-417B-B6E0-1C12C1D1BC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20A3CB9-4F96-417B-B6E0-1C12C1D1BC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20A3CB9-4F96-417B-B6E0-1C12C1D1BC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20A3CB9-4F96-417B-B6E0-1C12C1D1BC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF667AD-3E7B-45FF-93F5-770BCA2F91FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF667AD-3E7B-45FF-93F5-770BCA2F91FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF667AD-3E7B-45FF-93F5-770BCA2F91FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF667AD-3E7B-45FF-93F5-770BCA2F91FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB7DEBCC-5781-4966-89F8-64767BD5382E} = {F26869F4-1A4E-40CA-8205-05511D5D3426}
+		{F5B7B2DD-62F3-4C0A-BB02-E0695A232EC1} = {F26869F4-1A4E-40CA-8205-05511D5D3426}
+		{D73AB426-B5DC-4427-96FE-70DB6AFEE824} = {F26869F4-1A4E-40CA-8205-05511D5D3426}
+		{F20A3CB9-4F96-417B-B6E0-1C12C1D1BC93} = {F26869F4-1A4E-40CA-8205-05511D5D3426}
+		{4CF667AD-3E7B-45FF-93F5-770BCA2F91FE} = {F26869F4-1A4E-40CA-8205-05511D5D3426}
+	EndGlobalSection
+EndGlobal
