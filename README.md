@@ -1,5 +1,6 @@
+# Real Time Chat Application
+
 TODO:
-  Setup dependency injection for .NET projects
-  Setup formatting & linting in UI => Prettier, Eslint
 
-
+- Setup dependency injection for .NET projects
+- Setup formatting & linting in UI => Prettier, Eslint
